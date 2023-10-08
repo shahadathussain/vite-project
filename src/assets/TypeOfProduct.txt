@@ -1,0 +1,15 @@
+ProductCollection.propTypes = {
+  product: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    img: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired,
+    category: PropTypes.string.isRequired,
+    seller: PropTypes.string.isRequired,
+    price: PropTypes.number.isRequired,
+    stock: PropTypes.number.isRequired,
+    ratings: PropTypes.number.isRequired,
+    ratingsCount: PropTypes.number.isRequired,
+    shipping: PropTypes.number.isRequired,
+    quantity: PropTypes.number.isRequired,
+  }).isRequired,
+};

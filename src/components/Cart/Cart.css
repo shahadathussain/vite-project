@@ -1,0 +1,9 @@
+.cart {
+  grid-column: 4 / 5;
+}
+
+@media (max-width: 1200px) {
+  .cart {
+    grid-column: 1 / 2;
+  }
+}

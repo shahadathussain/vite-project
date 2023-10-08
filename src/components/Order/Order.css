@@ -1,0 +1,13 @@
+.order-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 টি কলাম এর জন্য */
+  grid-gap: 20px; /* কলাম মাঝের গ্যাপ */
+}
+
+.order-page {
+  grid-column: span 3; /* order-page কম্পোনেন্টটি 3 টি কলাম ধবধবে নেবে */
+}
+
+.cart {
+  grid-column: span 1; /* Cart কম্পোনেন্টটি 1 টি কলাম ধবধবে নেবে */
+}
